@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+}
+
+a, a:hover, a:focus, a:active, a:link {
+	border: 0;
+	text-decoration: none;
+    color: var(--text-colour);
+    cursor:pointer;  
+    
+}
