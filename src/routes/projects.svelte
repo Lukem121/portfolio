@@ -1,5 +1,6 @@
 <script>
     import TransitionWrapper from '../components/TransitionWrapper.svelte';
+    import Nav from '../components/Nav.svelte';
     import projects from './_projects.js';
 </script>
 
@@ -7,7 +8,9 @@
 	<title>Luke Askew - Projects</title>
 </svelte:head>
 
+
 <TransitionWrapper>
+    <Nav />
     <div class="flex-box">
         {#each projects as project}
             <div class="card">
@@ -39,8 +42,7 @@
         transition: 0.3s;
         border-radius: 5px;
         margin: 20px;
-        width: 20%;
-        max-width: 500px;
+        width: 80%;
     }
     .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -64,4 +66,11 @@
 		border: 1px solid #d8d8d8;
 		font-size: 1.5rem;
 	}
+
+    @media only screen and (min-width: 600px) {
+        .card {
+            min-width: 245px;
+            max-width: 20%;
+        }
+    }
 </style>
