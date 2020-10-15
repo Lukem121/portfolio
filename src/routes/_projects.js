@@ -23,7 +23,7 @@ const projects = [
     {
         title: "2D Ray Tracing",
         img: "2draycasting.jpg",
-        description: "Raycasting implemented in Javascript usign  TypeScript",
+        description: "Raycasting implemented in Javascript using  TypeScript",
         demo: "https://2d-raytracing.vercel.app/",
         code: "https://github.com/Lukem121/2d-raytracing"
     },
