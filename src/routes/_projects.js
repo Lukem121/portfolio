@@ -3,7 +3,7 @@ const projects = [
         title: "Rashek's Passwords",
         img: "password-manager.jpg",
         description: "Offline password manager that implements AES encrypion built with Svelte and Sapper",
-        demo: "https://password.vercel.com",
+        demo: "https://password-manager-9iuhyqahr.vercel.app/",
         code: "https://github.com/password-manager"
     },
     {
