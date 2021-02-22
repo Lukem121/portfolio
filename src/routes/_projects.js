@@ -7,18 +7,18 @@ const projects = [
         code: "https://github.com/password-manager"
     },
     {
+        title: "cheapETH Coinflip",
+        img: "cheepflipguy.jpg",
+        description: "cheapETH's number one coin flip battle ground! Featured on the cheapETH homepage by George Hotz.",
+        demo: "https://cth-flip.xyz/",
+        code: "https://github.com/Lukem121/cthflip"
+    },
+    {
         title: "Fraternize Meetup",
         img: "fratport.jpg",
         description: "Fraternize Meetup is a website for organizing events/groups that host in-person/online events.",
         demo: "https://fraternize.vercel.app/",
         code: "https://github.com/Lukem121/fraternize"
-    },
-    {
-        title: "cheapETH Coinflip",
-        img: "cheepflipguy.jpg",
-        description: "cheapETH's number one coin flip battle ground! Featured on the cheapETH homepage by <a href="https://en.wikipedia.org/wiki/George_Hotz">George Hotz.</a>",
-        demo: "https://cth-flip.xyz/",
-        code: "https://github.com/Lukem121/cthflip"
     },
     {
         title: "Paper Pigeon",

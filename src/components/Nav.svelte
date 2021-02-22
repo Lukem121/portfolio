@@ -1,29 +1,32 @@
-<div class="flex-box">
-    <a href="/"><span>Luke <span>Askew</span></span></a>
-</div>
+
+<a href="/"><i class="fas fa-long-arrow-alt-left"></i> <span>Back</span></a>
+
 
 <style>
-    .flex-box {
-		display: none;
-	}
+    i {
+        color: #4af174;
+        font-size: x-large;
+    }
+    a {
+        margin-top: 1.6rem;
+        margin-left: 2.5rem;
+        font-size: large;
+        display: flex;
+        align-items: center;
+    }
     span {
-		color: #202124;
-		font-size: 3.5rem;
-	}
-	span span {
-		color: #4af174;
-	}
-    @media only screen and (max-width: 600px) {
-        .flex-box {
+        margin-left: 0.5rem;
+    }
+
+    @media only screen and (min-width: 600px) {
+        i {
+            font-size: xx-large;
+        }
+        a {
+            margin-left: 4.7rem;
+            font-size: x-large;
             display: flex;
             align-items: center;
-            justify-content: center;
-            text-align: center;
-            margin-top: 20px;
-            cursor: pointer;
         }
-		span {
-			line-height: 90%;
-		}
 	}
 </style>

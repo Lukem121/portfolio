@@ -35,7 +35,6 @@
 		align-items: flex-start;
 		justify-content: center;
 		text-align: center;
-        height: 100vh;
 	}
     .card {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -68,9 +67,6 @@
 	}
 
     @media only screen and (min-width: 600px) {
-        .flex-box{
-            margin-top: 30vh;
-        }
         .card {
             min-width: 245px;
             max-width: 20%;
