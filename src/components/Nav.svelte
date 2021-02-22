@@ -23,7 +23,7 @@
             font-size: xx-large;
         }
         a {
-            margin-left: 4.7rem;
+            margin-left: 5rem;
             font-size: x-large;
             display: flex;
             align-items: center;
