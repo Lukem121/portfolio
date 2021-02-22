@@ -16,7 +16,7 @@ const projects = [
     {
         title: "cheapETH Coinflip",
         img: "cheepflipguy.jpg",
-        description: "cheapETH's number one coin flip battle ground! Featured on the cheapETH homepage by George Hotz.",
+        description: "cheapETH's number one coin flip battle ground! Featured on the cheapETH homepage by <a href="https://en.wikipedia.org/wiki/George_Hotz">George Hotz.</a>",
         demo: "https://cth-flip.xyz/",
         code: "https://github.com/Lukem121/cthflip"
     },
