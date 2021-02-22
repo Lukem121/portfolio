@@ -14,6 +14,13 @@ const projects = [
         code: "https://github.com/Lukem121/fraternize"
     },
     {
+        title: "cheapETH Coinflip",
+        img: "cheepflipguy.jpg",
+        description: "cheapETH's number one coin flip battle ground! Featured on the cheapETH homepage by George Hotz.",
+        demo: "https://cth-flip.xyz/",
+        code: "https://github.com/Lukem121/cthflip"
+    },
+    {
         title: "Paper Pigeon",
         img: "paper-pigeon.jpg",
         description: "Lightweight library to simply send notifications to Discord and Slack",
